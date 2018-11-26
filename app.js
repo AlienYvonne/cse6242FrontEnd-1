@@ -2,6 +2,7 @@ var express = require("express");
 var app = express();
 const http = require('http');
 var bodyParser = require('body-parser');
+var fs = require("fs");
 
 // support parsing of application/json type post data
 app.use(bodyParser.json());
@@ -15,7 +16,8 @@ app.get("/search", function(localreq, localres){
     var customfilters = "/filters?";
     customfilters += localreq._parsedUrl.query;
             var options = {
-                hostname: '35.245.253.7',
+                hostname: '0.0.0.0',
+                port:'123',
                 path: '/test',
                 method: 'get',
                 headers: {
@@ -32,6 +34,8 @@ app.get("/search", function(localreq, localres){
                     // console.log(`BODY: ${chunk}`);
                     thereturn = chunk;
                     console.log(thereturn);
+                    // thereturn = JSON.parse(thereturn);
+                    console.log(thereturn);
                     
                 });
                 res.on('end', () => {
@@ -43,10 +47,15 @@ app.get("/search", function(localreq, localres){
                 console.error(`problem with request: ${e.message}`);
             });
             
-            // write data to request body
+            write data to request body
             req.end();
+            // var json = JSON.stringify(thereturn);
+            fs.writeFile('./views/curgeo.json', json, 'utf8', (err) => {
+                console.log(err);
+            });
+            console.log("File has been created");
 
-          localres.render("result.ejs", {file: thereturn});  
+          localres.render("result.ejs", {geojsonFeature: thereturn });  
 });
 
 

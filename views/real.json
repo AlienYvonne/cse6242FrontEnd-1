@@ -1,0 +1,327 @@
+{ "type": "FeatureCollection",
+"features": [ 
+    {
+         "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [33.7706675, -84.3661573]
+          },
+          "properties": {
+                "address": "641 North Ave NE, Atlanta, GA",
+                "bike score": 80,
+                "location": {
+                    "lat": 33.7706675,
+                    "lon" :-84.3661573},
+                "criminal": "{\"AUTO THEFT\": 107, \"HOMICIDE\": 3, \"ROBBERY-RESIDENCE\": 1, \"ROBBERY-PEDESTRIAN\": 52, \"BURGLARY-RESIDENCE\": 77, \"LARCENY-FROM VEHICLE\": 351, \"ROBBERY-COMMERCIAL\": 7, \"BURGLARY-NONRES\": 38, \"AGG ASSAULT\": 22, \"LARCENY-NON VEHICLE\": 261, \"MANSLAUGHTER\": 0}",
+                "facts and features": "1 $1,324+ 2 $2,254+",
+                "google rating": "",
+                "places": [
+                    {
+                        "bicycl_distance": "0.1 mi",
+                        "bicycl_duration": "1 min",
+                        "cloest_store_name": "The Forum Athletic Club",
+                        "drive_distance": "0.3 mi",
+                        "drive_duration": "3 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.1 mi",
+                        "walk_duration": "2 mins"
+                    },
+                    {
+                        "bicycl_distance": "1.0 mi",
+                        "bicycl_duration": "9 mins",
+                        "cloest_store_name": "Ponce De Leon Branch Library",
+                        "drive_distance": "0.9 mi",
+                        "drive_duration": "4 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.9 mi",
+                        "walk_duration": "19 mins"
+                    },
+                    {
+                        "bicycl_distance": "0.8 mi",
+                        "bicycl_duration": "7 mins",
+                        "cloest_store_name": "Tasty China Jia",
+                        "drive_distance": "0.4 mi",
+                        "drive_duration": "3 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.3 mi",
+                        "walk_duration": "6 mins"
+                    }
+                ],
+                "price": null,
+                "rating": "4.0",
+                "review_count": "30",
+                "title": "AMLI Ponce Park",
+                "transit score": 43,
+                "travelling": {
+                    "bicycl_distance": "2.3 mi",
+                    "bicycl_duration": "18 mins",
+                    "drive_distance": "2.1 mi",
+                    "drive_duration": "11 mins",
+                    "walk_distance": "2.1 mi",
+                    "walk_duration": "45 mins"
+                },
+                "url": "https://www.zillow.com/b/amli-ponce-park-atlanta-ga-5fzfqc/",
+                "walk score": 88,
+                "yelp url": "https://www.yelp.com/biz/amli-ponce-park-atlanta?osq=AMLI+Ponce+Park"
+                        }
+    
+    },
+
+    {
+        "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [33.7768504, -84.3826208]
+          },     
+        "properties":{
+                "address": "811 Juniper St NE, Atlanta, GA",
+                "bike score": 80,
+                "coord": "33.7768504,-84.3826208",
+                "criminal": "{\"AUTO THEFT\": 177, \"HOMICIDE\": 1, \"ROBBERY-RESIDENCE\": 2, \"ROBBERY-PEDESTRIAN\": 75, \"BURGLARY-RESIDENCE\": 62, \"LARCENY-FROM VEHICLE\": 1057, \"ROBBERY-COMMERCIAL\": 2, \"BURGLARY-NONRES\": 41, \"AGG ASSAULT\": 75, \"LARCENY-NON VEHICLE\": 325, \"MANSLAUGHTER\": 0}",
+                "facts and features": "1 $1,599+ 2 $2,284+",
+                "google rating": "",
+                "places": [
+                    {
+                        "bicycl_distance": "0.2 mi",
+                        "bicycl_duration": "1 min",
+                        "cloest_store_name": "BLAST Midtown",
+                        "drive_distance": "0.3 mi",
+                        "drive_duration": "2 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "259 ft",
+                        "walk_duration": "1 min"
+                    },
+                    {
+                        "bicycl_distance": "0.5 mi",
+                        "bicycl_duration": "4 mins",
+                        "cloest_store_name": "University Systems of Georgia",
+                        "drive_distance": "0.5 mi",
+                        "drive_duration": "5 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.5 mi",
+                        "walk_duration": "10 mins"
+                    },
+                    {
+                        "bicycl_distance": "0.4 mi",
+                        "bicycl_duration": "3 mins",
+                        "cloest_store_name": "Noodle",
+                        "drive_distance": "0.6 mi",
+                        "drive_duration": "3 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.3 mi",
+                        "walk_duration": "6 mins"
+                    }
+                ],
+                "price": null,
+                "rating": "3.5",
+                "review_count": "16",
+                "title": "Broadstone Midtown",
+                "transit score": 65,
+                "travelling": {
+                    "bicycl_distance": "1.4 mi",
+                    "bicycl_duration": "9 mins",
+                    "drive_distance": "1.4 mi",
+                    "drive_duration": "8 mins",
+                    "walk_distance": "1.1 mi",
+                    "walk_duration": "23 mins"
+                },
+                "url": "https://www.zillow.com/b/broadstone-midtown-atlanta-ga-9Pv2wQ/",
+                "walk score": 92,
+                "yelp url": "https://www.yelp.com/biz/broadstone-midtown-atlanta?osq=Broadstone+Midtown"
+                    }
+    },
+
+    {
+        "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [33.765844, -84.3786924]
+          },  
+        "properties":{
+                "address": "400 Central Park Pl NE, Atlanta, GA",
+                "bike score": 73,
+                "coord": "33.765844,-84.3786924",
+                "criminal": "{\"AUTO THEFT\": 83, \"HOMICIDE\": 1, \"ROBBERY-RESIDENCE\": 6, \"ROBBERY-PEDESTRIAN\": 32, \"BURGLARY-RESIDENCE\": 52, \"LARCENY-FROM VEHICLE\": 117, \"ROBBERY-COMMERCIAL\": 0, \"BURGLARY-NONRES\": 4, \"AGG ASSAULT\": 22, \"LARCENY-NON VEHICLE\": 46, \"MANSLAUGHTER\": 0}",
+                "facts and features": "0 $1,180+ 1 $1,440+ 2 $1,740+",
+                "google rating": "",
+                "places": [
+                    {
+                        "bicycl_distance": "1.2 mi",
+                        "bicycl_duration": "9 mins",
+                        "cloest_store_name": "Unit 2 Fitness",
+                        "drive_distance": "1.2 mi",
+                        "drive_duration": "6 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.7 mi",
+                        "walk_duration": "15 mins"
+                    },
+                    {
+                        "bicycl_distance": "1.0 mi",
+                        "bicycl_duration": "8 mins",
+                        "cloest_store_name": "Martin Luther King Jr. Branch",
+                        "drive_distance": "1.0 mi",
+                        "drive_duration": "5 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "1.0 mi",
+                        "walk_duration": "21 mins"
+                    },
+                    {
+                        "bicycl_distance": "1.1 mi",
+                        "bicycl_duration": "13 mins",
+                        "cloest_store_name": "Hsu's At Peachtree Center",
+                        "drive_distance": "1.4 mi",
+                        "drive_duration": "7 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "1.0 mi",
+                        "walk_duration": "23 mins"
+                    }
+                ],
+                "price": null,
+                "rating": "3.5",
+                "review_count": "16",
+                "title": "The Prato at Midtown Apartments",
+                "transit score": 61,
+                "travelling": {
+                    "bicycl_distance": "2.1 mi",
+                    "bicycl_duration": "16 mins",
+                    "drive_distance": "2.1 mi",
+                    "drive_duration": "11 mins",
+                    "walk_distance": "1.9 mi",
+                    "walk_duration": "40 mins"
+                },
+                "url": "https://www.zillow.com/b/the-prato-at-midtown-apartments-atlanta-ga-5Xhtrc/",
+                "walk score": 52,
+                "yelp url": "https://www.yelp.com/biz/the-prato-at-midtown-apartments-atlanta?osq=The+Prato+at+Midtown+Apartments"
+                    }
+        
+    },
+
+    {   
+        "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [33.7719459, -84.366527]
+          },  
+        "properties":{
+                "address": "675 Ponce De Leon Ave NE, Atlanta, GA",
+                "bike score": 86,
+                "coord": "33.7719459,-84.366527",
+                "criminal": "{\"AUTO THEFT\": 101, \"HOMICIDE\": 2, \"ROBBERY-RESIDENCE\": 1, \"ROBBERY-PEDESTRIAN\": 47, \"BURGLARY-RESIDENCE\": 42, \"LARCENY-FROM VEHICLE\": 546, \"ROBBERY-COMMERCIAL\": 14, \"BURGLARY-NONRES\": 43, \"AGG ASSAULT\": 32, \"LARCENY-NON VEHICLE\": 607, \"MANSLAUGHTER\": 0}",
+                "facts and features": "0 $1,555+ 1 $1,589+ 2 $3,910",
+                "google rating": "",
+                "places": [
+                    {
+                        "bicycl_distance": "351 ft",
+                        "bicycl_duration": "1 min",
+                        "cloest_store_name": "The Forum Athletic Club",
+                        "drive_distance": "351 ft",
+                        "drive_duration": "1 min",
+                        "number_of_stores": 0,
+                        "walk_distance": "351 ft",
+                        "walk_duration": "1 min"
+                    },
+                    {
+                        "bicycl_distance": "1.0 mi",
+                        "bicycl_duration": "8 mins",
+                        "cloest_store_name": "Ponce De Leon Branch Library",
+                        "drive_distance": "1.0 mi",
+                        "drive_duration": "5 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.8 mi",
+                        "walk_duration": "19 mins"
+                    },
+                    {
+                        "bicycl_distance": "0.9 mi",
+                        "bicycl_duration": "8 mins",
+                        "cloest_store_name": "Tasty China Jia",
+                        "drive_distance": "0.1 mi",
+                        "drive_duration": "2 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.4 mi",
+                        "walk_duration": "8 mins"
+                    }
+                ],
+                "price": null,
+                "rating": "3.5",
+                "review_count": "17",
+                "title": "The Flats at Ponce City Market",
+                "transit score": 43,
+                "travelling": {
+                    "bicycl_distance": "2.2 mi",
+                    "bicycl_duration": "17 mins",
+                    "drive_distance": "2.1 mi",
+                    "drive_duration": "11 mins",
+                    "walk_distance": "2.1 mi",
+                    "walk_duration": "46 mins"
+                },
+                "url": "https://www.zillow.com/b/the-flats-at-ponce-city-market-atlanta-ga-5YyFqB/",
+                "walk score": 85,
+                "yelp url": "https://www.yelp.com/biz/the-flats-at-ponce-city-market-apartments-atlanta?osq=The+Flats+at+Ponce+City+Market"
+                    }                
+    },
+
+    {
+        "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [33.7694631, -84.382706]
+          }, 
+        "properties":{
+                "address": "530 Piedmont Ave NE, Atlanta, GA",
+                "bike score": 70,
+                "coord": "33.7694631,-84.382706",
+                "criminal": "{\"AUTO THEFT\": 96, \"HOMICIDE\": 2, \"ROBBERY-RESIDENCE\": 6, \"ROBBERY-PEDESTRIAN\": 99, \"BURGLARY-RESIDENCE\": 70, \"LARCENY-FROM VEHICLE\": 313, \"ROBBERY-COMMERCIAL\": 11, \"BURGLARY-NONRES\": 49, \"AGG ASSAULT\": 117, \"LARCENY-NON VEHICLE\": 276, \"MANSLAUGHTER\": 0}",
+                "facts and features": "1 $1,604+ 2 $2,078+",
+                "google rating": "",
+                "places": [
+                    {
+                        "bicycl_distance": "0.3 mi",
+                        "bicycl_duration": "4 mins",
+                        "cloest_store_name": "RPM at Bank of America Plaza",
+                        "drive_distance": "0.4 mi",
+                        "drive_duration": "3 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.3 mi",
+                        "walk_duration": "6 mins"
+                    },
+                    {
+                        "bicycl_distance": "1.0 mi",
+                        "bicycl_duration": "10 mins",
+                        "cloest_store_name": "Clark Howell Homes Library",
+                        "drive_distance": "1.2 mi",
+                        "drive_duration": "7 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.9 mi",
+                        "walk_duration": "19 mins"
+                    },
+                    {
+                        "bicycl_distance": "0.7 mi",
+                        "bicycl_duration": "7 mins",
+                        "cloest_store_name": "Pacific Grill",
+                        "drive_distance": "0.7 mi",
+                        "drive_duration": "4 mins",
+                        "number_of_stores": 0,
+                        "walk_distance": "0.5 mi",
+                        "walk_duration": "12 mins"
+                    }
+                ],
+                "price": null,
+                "rating": 0,
+                "review_count": "",
+                "title": "The Waterford on Piedmont",
+                "transit score": 66,
+                "travelling": {
+                    "bicycl_distance": "1.3 mi",
+                    "bicycl_duration": "11 mins",
+                    "drive_distance": "1.3 mi",
+                    "drive_duration": "9 mins",
+                    "walk_distance": "1.2 mi",
+                    "walk_duration": "25 mins"
+                },
+                "url": "https://www.zillow.com/b/the-waterford-on-piedmont-atlanta-ga-5Xhv6g/",
+                "walk score": 89,
+                "yelp url": "https://www.yelp.com/biz/the-waterford-on-piedmont-atlanta-2?osq=The+Waterford+on+Piedmont"
+        }      
+    }
+]
+}

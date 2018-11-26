@@ -14,7 +14,7 @@
 </head>
 <body>
     <h1>
-        This is the title <%= console.log(file)%>"
+        This is the title
     </h1>
 	 <div id="mapid" style="width: 600px; height: 400px; position: relative;"></div>
 	 <script type="text/javascript">
@@ -26,21 +26,20 @@
 			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		id: 'mapbox.streets'
 	}).addTo(mymap);
-      function ok(feature){
-      	// console.log("feature is")
-      	// console.log(feature.properties);
-      	var coor = feature.geometry.coordinates;
-      	// var marker = L.marker(coor).addTo(mymap);
-      	// layer.bindPopup(feature.properties.name);
-      	var popupDIV = "<b>Hello world!</b>" + feature.properties.address;
-      	L.marker(coor).addTo(mymap)
-    		.bindPopup(popupDIV);
-      }
-          
 
-    console.log("I am here");
-    // console.log( file);
-    console.log(<%= JSON.stringify(file) %>);
+  function popUp(feature){
+  	// console.log("feature is")
+  	// console.log(feature.properties);
+  	var coor = feature.geometry.coordinates;
+  	// var marker = L.marker(coor).addTo(mymap);
+  	// layer.bindPopup(feature.properties.name);
+  	var popupDIV = "<b>Hello world!</b>" + feature.properties.address;
+  	L.marker(coor).addTo(mymap)
+		.bindPopup(popupDIV);
+  }
+  var geojsonLayer = new L.GeoJSON.AJAX("./curgeo.json", {onEachFeature:popUp });
+
+  geojsonLayer.addTo(mymap);
 
 	 </script>
 </body>
